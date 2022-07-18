@@ -1,3 +1,3 @@
 FROM httpd:alpine
 
-RUN apk add --upgrade busybox
+RUN apk del busybox
